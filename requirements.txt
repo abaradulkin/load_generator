@@ -1,0 +1,4 @@
+faker
+locust
+requests
+swagger_tester
