@@ -14,6 +14,8 @@ class SwaggerParser:
 
     def parse(self):
         result = []
+        # TODO: Add implementation for query params and body
+        # TODO: Refactor this code to reduce loops and use Builder pattern
         for path, method_data in self.swagger["paths"].items():
             for method, data in method_data.items():
                 path_raw = path  # Need to generate unique path for every method
